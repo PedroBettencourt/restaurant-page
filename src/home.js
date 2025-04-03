@@ -1,5 +1,3 @@
-import "./home.css"
-
 const home = (() => {
     const items = document.createElement("div");
     items.classList="items";
@@ -8,6 +6,7 @@ const home = (() => {
     title.textContent = "Ajay's Restaurant";
 
     const description = document.createElement("div");
+    description.classList = "item";
     description.innerHTML = "<p>Description</p>"
     const descriptionContent = document.createElement("div");
     descriptionContent.classList = "text";
@@ -15,6 +14,7 @@ const home = (() => {
     description.appendChild(descriptionContent);
 
     const timetable = document.createElement("div");
+    timetable.classList = "item";
     timetable.innerHTML = "<p>Hours</p>";
     const timetableContent = document.createElement("div");
     timetableContent.classList = "text"
@@ -28,6 +28,7 @@ const home = (() => {
     timetable.appendChild(timetableContent);
 
     const location = document.createElement("div");
+    location.classList = "item"
     location.innerHTML = "<p>Location</p>";
     const locationContent = document.createElement("div");
     locationContent.classList = "text";

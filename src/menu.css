@@ -1,0 +1,23 @@
+h2 {
+    background-color: lavenderblush;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.food > div{
+    width: calc(var(--content-width) / 2);
+    padding: 10px;
+    margin: 20px;
+    background: pink;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.food > div > p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px;
+}
